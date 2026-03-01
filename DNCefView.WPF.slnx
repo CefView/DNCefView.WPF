@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/DNCefView.WPF/DNCefView.WPF.csproj" />
+  <Project Path="demo/DNCefView.WPF.Demo/DNCefView.WPF.Demo.csproj" />
+</Solution>

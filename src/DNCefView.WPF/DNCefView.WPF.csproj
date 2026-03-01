@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>DNCefView.WPF</AssemblyName>
+    <RootNamespace>DNCefView.WPF</RootNamespace>
+    <Description>A WPF implementation of DNCefView</Description>
+    <PackageProjectUrl>https://github.com/CefView/DNCefView.WPF</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CefView/DNCefView.WPF</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>WebView;CEF;CefView;DNCefView;WPF</PackageTags>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\readme.md">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+      <Link>README.md</Link>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DNCefView" />
+  </ItemGroup>
+</Project>
